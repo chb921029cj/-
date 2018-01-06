@@ -1,0 +1,151 @@
+.footer-container{
+    width: 1200px;
+    margin:auto;
+    background: #eaeaea  ;
+}
+#footer-1{
+    position: relative;
+    width:898px;
+    height: 42px;
+    padding:30px 151px;
+    margin:auto;
+}
+#footer-1>ul>li{
+    position: absolute;
+    transform: translateX(-50%);
+    font:18px/42px bold;
+}
+#footer-1>ul>li>span{
+    display:inline-block;
+    position: absolute;
+    left:-40px;
+    width: 36px;
+    height: 42px;
+}
+#footer-1>ul>li>span{
+    background: url(../img/ico_service.png ) no-repeat ;
+}
+#footer-1>ul>li:nth-child(2) span{
+    background: url(../img/ico_service.png ) 0 -43px no-repeat  ;
+}
+#footer-1>ul>li:nth-child(3) span{
+    background: url(../img/ico_service.png ) 0 -86px no-repeat  ;
+}
+#footer-1>ul>li:nth-child(4) span{
+    background: url(../img/ico_service.png ) 0 -129px no-repeat  ;
+}
+#footer-1>ul>li:nth-child(1){
+    left:20%;
+}
+#footer-1>ul>li:nth-child(2){
+    left:40%;
+}
+#footer-1>ul>li:nth-child(3){
+    left:60%;
+}
+#footer-1>ul>li:nth-child(4){
+    left:80%;
+}
+hr{
+    border:1px  solid #5e5e5e;
+}
+#footer-2>ul {
+    float: left;
+    width: 160px;
+    margin:20px 0 20px 40px ;
+
+}
+#footer-2>ul>li{
+    width: 100%;
+    margin:5px 0;
+}
+#footer-2>ul>li:first-child{
+    font:16px/24px bold;
+}
+#footer-2>ul>li a{
+    color:#666;
+    font:14px/17px mormal;
+}
+a{
+    color:#666;
+}
+#footer-2>ul>li a:hover{
+    color:#e4393c;
+}
+a:hover{
+    color:#e4393c;
+}
+#footer-2>ul:last-child>li:first-child{
+    font:16px/24px bold;
+    text-align: center;
+}
+#footer-2>ul:last-child{
+    margin-left:10px;
+    background: url(../img/ico_footer.png ) 0 0 no-repeat ;
+}
+#footer-2>ul:last-child>li:nth-child(2){
+    font:14px/17px mormal;
+}
+#footer-2>ul:last-child>li:nth-child(3){
+    text-align: right;
+}
+#footer-3{
+    width: 100%;
+}
+#footer-3>div {
+    width: 1064px;
+    margin:auto;
+}
+#footer-3 a{
+    text-align: center;
+    float:left;
+    display:inline-block;
+    width: 70px;
+    height: 17px;
+    font:12px/17px normal;
+    border-right:1px solid #666;
+}
+#footer-3 a:last-child{
+    border:none;
+}
+#footer-4 {
+    text-align: center;
+    font:12px/17px normal;
+    vertical-align:middle;
+}
+#footer-4 span{
+    font:12px/17px normal;
+}
+#footer-5{
+    width: 100%;
+    margin:10px ;
+    padding-top:10px;
+    padding-bottom:100px;
+}
+#footer-5 ul{
+    width: 618px;
+    margin:auto;
+}
+#footer-5 ul>li{
+    float:left;
+    width: 103px;
+    height: 32px;
+}
+#footer-5 ul>li:nth-child(1){
+    background: url(../img/ico_footer.png ) 0 -151px;
+}
+#footer-5 ul>li:nth-child(2){
+    background: url(../img/ico_footer.png ) -104px -151px;
+}
+#footer-5 ul>li:nth-child(3){
+    background: url(../img/ico_footer.png ) 0 -184px;
+}
+#footer-5 ul>li:nth-child(4){
+    background: url(../img/ico_footer.png ) -104px -184px;
+}
+#footer-5 ul>li:nth-child(5){
+    background: url(../img/ico_footer.png ) 0 -217px;
+}
+#footer-5 ul>li:nth-child(6){
+    background: url(../img/ico_footer.png ) -104px -217px;
+}

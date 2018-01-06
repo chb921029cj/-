@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cc{
+           color:yellow
+        }
+    </style>
+</head>
+<body>
+
+        <div>b</div>
+        <div>a</div>
+        <div>b</div>
+        <div>b</div>
+        <p>a</p>
+        <p id="s">b</p>
+        <p>c
+            <a href="" class="ss">sa</a>
+        </p>
+        <div class="s cc" >
+            <p>你</p>
+        </div>
+        <div class="sss cc">
+            <p>你</p>
+        </div>
+        <input type="checkbox" id="show">
+<script src="jquery-3.2.1.js">    </script>
+    <script>
+        $("div:contains(a)").css('color','red')
+        $("p").parent(".s").css('background-color','red')
+        $("p").has(".ss").css('color','red');
+        console.log($(".s").empty());
+        console.log($("#show").prop('checked',true),true);
+        console.log($("input")[0]);
+        console.log($("#show"));
+        $("#show").click(function(){
+            console.log($(".sss").hasClass("cc"));
+            $(".sss").toggleClass("cc");
+        });
+        $(document).ready( function() {
+            $('a').live( 'click', function() {
+                alert("You are now leaving this site");
+                return true;
+            });
+        });
+    </script>
+</body>
+</html>

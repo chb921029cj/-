@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>注册模态框</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register1.css">
+
+<body>
+    <div id="register">
+        <div>
+            <div>
+               <div>
+                   <a href=""><strong>X</strong></a>
+                   <p>注册</p>
+               </div>
+                <div>
+                    <form action="" class="clear">
+                        <div><label for="uname" class="fl">账户:</label><input name="uname" id="uname" type="text" placeholder="请输入账号" class="fl"><span class="fl"></span></div>
+                        <div class="clear" >
+                            <label for="upwd" class="fl">密码:</label>
+                            <input name="upwd" id="upwd" type="password" placeholder="请输入密码" class="fl">
+                            <span class="fl">请输入账户3到31位</span>
+                        </div>
+                        <div class="clear"><!--
+                            --><label for="cpwd" class="fl">再次密码:</label><!--
+                            --><input name="upwd" id="cpwd" type="password" placeholder="请再次输入密码" class="fl"><!--
+                            --><span class="fl"></span>
+                        </div>
+                        <div>
+                            <label for="yzm">验证码:</label>
+                            <input name="yzm" id="yzm" type="text" placeholder="请输入验证码">
+                            <img src="data/yzm.php" alt="" title="换一张图片" id="yzmimg" height="34px">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="missme">
+                            <label for="missme">
+                                <span></span>同意 <a href="">《用户协议》</a>和 <a href="">《隐私政策》</a>
+                            </label>
+                        </div>
+                        <div>
+                            <button id="btnr">注册</button>
+                            <button id="btnl">登录</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <p><strong>-其他登陆方式-</strong></p>
+                    <ul class="clear ">
+                        <li ><a href=""><span><img src="img/QQ.png" alt="" width="30px"></span>QQ</a></li>
+                        <li ><a href=""><span><img src="img/weixin.png" alt="" width="30px"></span>微信</a></li>
+                        <li ><a href=""><span><img src="img/weibo.png" alt="" width="30px"></span>微博</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/register1.js"></script>
+</body>
+</html>

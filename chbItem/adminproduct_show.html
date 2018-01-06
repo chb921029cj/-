@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Title</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edga">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/adminproduct_show.css ">
+    <script src="js/html5shiv.min.js "></script>
+    <script src="js/respond.min.js "></script>
+</head>
+<body>
+    <div class="container ">
+        <div class="row ">
+            <h1>商品介绍</h1>
+        </div>
+        <div class="row ">
+            <div class="col-md-2 ">
+                aa
+            </div>
+            <div class="col-md-10 ">
+                <table class="table ">
+                    <thead>
+                    <tr>
+                        <th><input type="checkbox">全选</th>
+                        <th>编号</th>
+                        <th>图片</th>
+                        <th>型号</th>
+                        <th>主标题</th>
+                        <th>规格</th>
+                        <th>单价</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p id="countPage"></p>
+    </div>
+    <div class="my-btn-detail">
+        <a href="">X</a>
+        <h4>商品详细表</h4>
+        <ul class="list-unstyled" id="product-detail">
+            <!--<li><strong>所属分类</strong>${p.family_id}</li>-->
+            <!--<li><strong>主标题</strong>${p.title}</li>-->
+            <!--<li><strong>副标题</strong>${p.subtitle}</li>-->
+            <!--<li><strong>单价</strong>${p.price}</li>-->
+            <!--<li><strong>承诺</strong>${p.promise}</li>-->
+            <!--<li><strong>规格</strong>${p.spec}</li>-->
+            <!--<li><strong>商品名称</strong>${p.lname}</li>-->
+            <!--<li><strong>操作系统</strong>${p.os}</li>-->
+            <!--<li><strong>分辨率</strong>${p.resolution}</li>-->
+            <!--<li><strong>尺寸</strong>${p.size}</li>-->
+            <!--<li><strong>电池容量</strong>${p.battery}</li>-->
+            <!--<li><strong>后置摄像头</strong>${p.postposition}</li>-->
+            <!--<li><strong>前置摄像头</strong>${p.preposition}</li>-->
+            <!--<li><strong>核心数</strong>${p.cpu}</li>-->
+            <!--<li><strong>RAM容量</strong>${p.ram}</li>-->
+            <!--<li><strong>ROM容量</strong>${p.rom}</li>-->
+            <!--<li><strong>详细说明</strong>${p.detail}</li>-->
+        </ul>
+    </div>
+    <div class="my-btn-updata">
+        <a href="">X</a>
+        <h4>商品详细表</h4>
+        <form action="">
+        <ul class="list-unstyled" id="product-updata">
+            <!--<li><strong>所属分类</strong><input type="text" value="${p.family_id}"></li>-->
+            <!--<li><strong>主标题</strong><input type="text" value="${p.title}"></li>-->
+            <!--<li><strong>副标题</strong><input type="text" value="${p.subtitle}"></li>-->
+            <!--<li><strong>单价</strong><input type="text" value="${p.price}"></li>-->
+            <!--<li><strong>承诺</strong><input type="text" value="${p.promise}"></li>-->
+            <!--<li><strong>规格</strong><input type="text" value="${p.spec}"></li>-->
+            <!--<li><strong>商品名称</strong><input type="text" value="${p.lname}"></li>-->
+            <!--<li><strong>操作系统</strong><input type="text" value="${p.os">}</li>-->
+            <!--<li><strong>分辨率</strong><input type="text" value="${p.resolution}"></li>-->
+            <!--<li><strong>尺寸</strong><input type="text" value="${p.size}"></li>-->
+            <!--<li><strong>电池容量</strong><input type="text" value="${p.battery}"></li>-->
+            <!--<li><strong>后置摄像头</strong><input type="text" value="${p.postposition}"></li>-->
+            <!--<li><strong>前置摄像头</strong><input type="text" value="${p.preposition}"></li>-->
+            <!--<li><strong>核心数</strong><input type="text" value="${p.cpu}"></li>-->
+            <!--<li><strong>RAM容量</strong><input type="text" value="${p.ram}"></li>-->
+            <!--<li><strong>ROM容量</strong><input type="text" value="${p.rom}"></li>-->
+            <!--<li><strong>详细说明</strong><input type="text" value="${p.detail}"></li>-->
+        </ul>
+            <button>提交</button>
+        </form>
+    </div>
+    <div class="my-btn-pic">
+        <h2></h2>
+        <a href="">X</a>
+        <div id="drop_area">
+            将图片拖到此处
+        </div>
+        <hr>
+        <div id="pic_show">
+            图片展示区
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js "></script>
+    <script src="js/ad-product_show.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+主标题  副标题 单价 承诺  规格
+title   subtitle price promise spec
+商品名称 操作系统  分辨率 尺寸  电池容量
+lname   os   resolution    size  battery
+后置摄像头 前置摄像头 核心数 RAM   ROM
+postposition preposition cpu  ram  rom
+是否促销   详细说明
+is_onsale   detail

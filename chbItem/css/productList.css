@@ -1,0 +1,408 @@
+article{
+    width: 1200px;
+    margin: 30px auto;
+}
+#nav{
+    width: 100px;
+    padding-left:10px ;
+}
+.nav-list{
+    width: 100%;
+    margin-bottom:10px;
+}
+.nav-list>dt{
+    padding:5px 0;
+
+}
+.nav-list>dd{
+    line-height: 20px;
+}
+.nav-list>dd>span{
+    display: inline-block;
+    width: 24px;
+    height: 11px;
+    background: url(../img/productCart/myjd-new-ico.png);
+}
+.nav-list>.cr{
+    color:red;
+    font-weight: 600;
+}
+.nav-list>dd>i{
+    color:red;
+    font-style:normal;
+}
+#bd{
+    width: 1050px;
+}
+.title{
+    line-height: 20px;
+    padding:10px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ddd;
+    color:#666;
+}
+.page{
+    line-height:30px;
+    padding:5px 10px;
+}
+.page>.pageSize,.page>.pno{
+    outline:none;
+    width: 30px;
+    height: 20px;
+}
+.page>button{
+    outline:none;
+}
+.page>button:hover{
+    background: red;
+    color:#fff;
+}
+#ptbale{
+    border-collapse: collapse;
+}
+#ptbale th{
+
+    line-height:30px;
+}
+#ptbale th:nth-child(1){
+    width: 50px;
+}
+#ptbale th:nth-child(2){
+    width: 50px;
+}
+#ptbale th:nth-child(3){
+    width: 120px;
+}
+#ptbale th:nth-child(4){
+    width: 100px;
+}
+#ptbale th:nth-child(5){
+    width: 300px;
+}#ptbale th:nth-child(6){
+     width: 130px;
+ }
+#ptbale th:nth-child(7){
+    width: 50px;
+}
+#ptbale th:nth-child(8){
+    width: 100px;
+}
+#ptbale th:nth-child(9){
+    width: 150px;
+}
+#pagep{
+    text-align: center;
+}
+#pagep>a{
+    display:inline-block;
+    width:40px;
+    height: 30px;
+    line-height: 30px;
+    border:5px;
+    margin:0 20px;
+    background: #ddd;
+    border-radius:5px;
+    cursor:pointer;
+}
+#pagep>a.focus{
+    background: red;
+    color:white;
+}
+.page>input{
+    text-align: center;
+}
+#tbody td{
+    height: 40px;
+    padding:10px 0;
+    text-align: center;
+}
+#tbody td:nth-child(9)>a {
+    display: inline-block;
+    background: #e3e4e5;
+    line-height:30px;
+    height: 30px;
+    border-radius:5px;
+    padding:0 2px;
+}
+#tbody td:nth-child(9)>a:hover{
+    background: #f10215;
+    color:#fff;
+}
+
+.pppic{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+    border:1px solid #666;
+    z-index:1111;
+}
+
+.pppic>div>button{
+
+    display: inline-block;
+    margin:10px 20px;
+}
+.pppic>div:nth-child(4){
+    height:200px;
+    line-height:200px;
+}
+.ppdetail{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    text-align: center;
+    border:1px solid #666;
+    z-index:1111;
+}
+
+.ppdetail>div>button{
+
+    display: inline-block;
+    margin:10px 100px;
+}
+.ppdetail>ul{
+    width: 100%;
+}
+.ppdetail>ul>li{
+    width: 300px;
+    text-align: left;
+    font-size:12px;
+    margin-bottom:10px;
+    border-bottom:1px dotted #ddd;
+}
+.ppdetail>ul>li>strong{
+    margin-left:10px;
+    display: inline-block;
+    width: 100px;
+    line-height:20px;
+    text-align: left;
+}
+.ppdetail>ul>li>span{
+    display:inline-block;
+    line-height:20px;
+    width: 180px;
+}
+.ppupdate{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 910px;
+    height: 600px;
+    background: #fff;
+    text-align: center;
+    border:1px solid #666;
+    z-index:1111;
+}
+.ppupdate>form{
+    width: 100%;
+}
+.ppupdate>form>div>button{
+    display: inline-block;
+    margin:10px 100px;
+}
+.ppupdate>form>ul{
+    width: 100%;
+
+}
+.ppupdate>form>ul>li{
+    width: 50%;
+    text-align: left;
+    margin-bottom:10px;
+}
+.ppupdate>form>ul>li>strong{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+    line-height:20px;
+    font-size:12px;
+}
+.ppupdate>form>ul>li>input{
+    display: inline-block;
+    width: 400px;
+    line-height: 20px;
+    box-sizing: border-box;
+    margin:0;
+
+}
+.ppdelete{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    border:1px solid #666;
+    z-index:1111;
+}
+.ppdelete>button{
+    display: inline-block;
+    margin: 40px ;
+}
+.ppdelete>h1{
+    line-height:100px;
+}
+#user table{
+    width:1050px;
+    border-collapse:collapse;
+}
+#user-head>tr>th{
+    width: 120px;
+
+}
+#user-head>tr>th:last-child{
+    width: 330px;
+}
+
+#user-body {
+    text-align: center;
+    line-height:50px;
+    font-weight:600;
+}
+#user-body>tr{
+
+}
+#user-body>tr>td{
+    vertical-align: middle;
+    border-bottom:1px dotted #666;
+}
+
+#user-body>tr>td:nth-child(n+7)>a{
+    display: inline-block;
+    margin: 0 10px;
+    padding:0 5px;
+    height: 30px;
+    line-height:30px;
+    background: #ddd;
+    position: relative;
+    border-radius:5px;
+    cursor:pointer;
+}
+#user-body>tr>td:nth-child(6){
+    width: 140px;
+}
+#user-body>tr>td:nth-child(6)>a{
+    display: inline-block;
+
+    height: 30px;
+    line-height:30px;
+    background: #ddd;
+    position: relative;
+    border-radius:5px;
+    cursor:pointer;
+}
+#xgxx{
+    display:none;
+    width: 200px;
+    height: 200px;
+    background: #ddd;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    text-align: center;
+    box-shadow: 2px 2px #000;
+    z-index:1111;
+}
+#xgxx>form{
+    margin:20px 0;
+}
+#xgxx>form>p{
+    padding:10px 0;
+}
+#xgxx>h1{
+    margin-top:20px;
+}
+#xgxx>form>p>span{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+    padding-right:10px;
+}
+#xgxx>form>p>input{
+    width: 130px;
+    outline:none;
+    border:none;
+    padding:0;
+    background: #ddd;
+    border-bottom:1px solid #ccc;
+}
+#xgxx>form>button{
+    display: inline-block;
+    margin:0 20px;
+}
+#xgxx>form>button:hover{
+    background: red;
+    color:white;
+}
+#scyh{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width: 200px;
+    height: 50px;
+    background: #ccc;
+    border-radius:5px;
+    text-align: center;
+    display:none;
+    line-height:50px;
+    font-weight:600;
+    font-size:22px;
+}
+#scyh>button{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border-radius:5px;
+    margin:10px;
+}
+#xgtx{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width: 150px;
+    height: 250px;
+    background: #fff;
+    border-radius:5px;
+    text-align: center;
+    line-height:50px;
+    font-weight:600;
+    font-size:12px;
+    display:none
+}
+#xgtx>div:first-child{
+    height: 200px;
+    line-height:200px;
+}
+#xgtx>div:last-child>button{
+    display: inline-block;
+    margin:0 10px;
+}

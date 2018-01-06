@@ -1,0 +1,28 @@
+   function product_pic(){
+        $rs = empty($_FILES);
+        if($rs){
+            die('{"code":-1,"msg":"你上传的图片不存在"}')
+        }
+        $pic = $_FILES["myfile"];
+        $name = $pic["name"];
+        $size = ceil($pic["size"]/1000);
+        if($size>2014){
+            die('{"code":-2,"msg":"你上传文件过大"}');
+        }
+        $type = strstr($name,".");
+        if($type!=".gif"||$type!=".png"||$type!=".jpg"){
+             die('{"code":-3,"msg":"你上传文件类型不对"}');
+        }
+        $pname = time().rand(0,9999).$type;
+        $old = $pic["tmp_name"];
+        $new = "../upload/product/bs/".$pname;
+        move_uploaded_file($old,$new);
+        mkThumbnail($new,54,54,"upload/product/sm/".$pname);
+        mkThumbnail($new,54,54,"upload/product/md/".$pname);
+        mkThumbnail($new,54,54,"upload/product/lg/".$pname);
+        $lid = $_REQUEST["lid"];
+        $sm = "upload/product/sm/".$pname;
+        $md = "upload/product/md/".$pname;
+        $lg = "upload/product/lg/".$pname;
+        $sql = " INSERT INTO  ";
+   }

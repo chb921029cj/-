@@ -1,0 +1,10 @@
+
+.my-btn-detail,.my-btn-updata,.my-btn-pic{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+    display:none;
+    background: red;
+}
+

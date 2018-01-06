@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Title</title>
+    <style>
+
+
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edga">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/html5shiv.min.js "></script>
+    <script src="js/respond.min.js "></script>
+</head>
+<body>
+
+    <div class="container ">
+        <h1 class="text-center">用户管理界面</h1>
+        <h3 class="text-center">商品添加</h3>
+        <div class="row">
+            <div class="col-sm-2 hidden-xs">aaa</div>
+            <form action="" id="form" class="col-sm-10  form-horizontal">
+                <div class="form-group">
+                    <div class="col-sm-2 text-center" >
+                        <label for="family_id" class="control-label">所属分类:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <select name="family_id" id="family_id" class="form-control "></select>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block">未找到分类请在其他下面添加</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center" >
+                        <label for="title" class="control-label">主标题:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="title" type="text" name="title" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block">商品主标题不能超过128个字符</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="subtitle" class="control-label">副标题:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="subtitle"  name="subtitle" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block">商品副标题不能超过128个字符</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="price" class="control-label">单价:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="price"  name="price" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block">商品单价最多有两位小数位</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="promise" class="control-label">承诺:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="promise"  name="promise" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-heart"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="spec" class="control-label">规格:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="spec"  name="spec" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="lname" class="control-label">商品名称:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="lname"  name="lname" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block "></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="os" class="control-label">操作系统:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="os"  name="os" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="resolution" class="control-label">分辨率:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="resolution"  name="resolution" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="size" class="control-label">尺寸:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="size"  name="size" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="battery" class="control-label">电池容量:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="battery"  name="battery" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="postposition" class="control-label">后置摄像头:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="postposition"  name="postposition" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-camera"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="preposition" class="control-label">前置摄像头:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="preposition"  name="preposition" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-camera"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="cpu" class="control-label">核心数:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="cpu"  name="cpu" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="ram" class="control-label">RAM容量:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="ram"  name="ram" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="rom" class="control-label">ROM容量:</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="rom"  name="rom" type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="help-block glyphicon glyphicon-cog"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 text-center">
+                        <label for="is_onsale" >是否促销:</label>
+                    </div>
+                    <div class="col-sm-3 ">
+                        是:<input type="radio" id="is_onsale"  name="is_onsale" value="true">
+                       否: <input type="radio"  name="is_onsale" value="false" checked>
+                    </div>
+                </div>
+                <div class="form-group text-center" >
+                    <div class="col-sm-2 ">
+                        <label for="detail" class="control-label">详细说明:</label>
+                    </div>
+                    <div class="col-sm-10 ">
+                        <textarea name="detail" id="detail" cols="30" rows="10" class="form-control "></textarea>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-sm-2 col-md-offset-2">
+                        <button class="btn btn-info form-control" id="submit">提交</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/product_add.js"></script>
+</body>
+</html>

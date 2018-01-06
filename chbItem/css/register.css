@@ -1,0 +1,225 @@
+body{
+    width:100%;
+    /*height: 700px;*/
+    background: url(../img/timg4.png) no-repeat 50% 0  ;
+    z-index:1;
+    overflow:hidden;
+}
+.main{
+    width: 50%;
+    margin:200px auto 0;
+    background: rgba(0,0,0,0.7);
+    /*padding:2px 2px 0;*/
+    border:2px solid rgba(238, 238, 238, 0.13);
+    border-bottom:none;
+    color:#fff;
+}
+header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size:30px;
+    line-height:50px;
+   /*vertical-align:bottom;*/
+}
+header+div{
+    width: 100%;
+
+ }
+header+div form{
+    width: 50%;
+
+    box-sizing:border-box;
+    padding:20px ;
+    /*border:2px solid red;*/
+}
+header+div form:last-child{
+    border-left:2px solid #fff;
+}
+header+div form>h2{
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header+div form input:not([type=checkbox]):not([type=submit]){
+    display:block;
+    outline:none;
+    width: 80%;
+    height: 40px;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+    line-height:40px;
+    font-size:16px;
+    padding-left:10px;
+    color:#fff;
+}
+input::placeholder{
+    color:#ddd;
+    position: relative;
+    left:20px;
+}
+header+div form input[type=submit]{
+    display:block;
+    width: 60%;
+    height: 40px;
+}
+header+div form input[type=checkbox]{
+    display:none;
+}
+header+div form input[type=checkbox]+label span{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border: 1px solid #EEE;
+   vertical-align:middle;
+    position: relative;
+    left:-10px;
+}
+header+div form input[type=checkbox]+label{
+    position: relative;
+    padding-left: 10px;
+    border: #F0F8FF;
+    display: inline-block;
+    font-size: 13px;
+    line-height:100%;
+}
+header+div form input[type=checkbox]:checked+label span:before{
+    content: "";
+    background: url(../img/tick.png)no-repeat;
+    position: absolute;
+   top:3px;
+    left:3px;
+    width: 10px;
+    height: 10px;
+}
+header+div form input[type=submit]{
+    background: transparent;
+    outline:none;
+    text-align: center;
+    margin:20px auto;
+    color:#ddd;
+}
+header+div form input[type=submit]:hover{
+    background:rgba(238, 238, 238, 0.13);
+    transition:all .1s;
+}
+header+div form h4{
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    font-weight:normal;
+}
+header+div form h4 a{
+    color:#fff;
+}
+header+div form h4+h4{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+header+div form ul{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    position: relative;
+    left:-20px;
+}
+header+div form ul>li{
+
+    width: 100px;
+    height: 30px;
+    line-height:30px;
+    text-align: right;
+    position: relative;
+}
+header+div form ul>li>a{
+    color:#fff;
+}
+header+div form ul>li>a>span:first-child{
+    position: absolute;
+    left:30px;
+    transition:all 2s;
+}
+header+div form ul>li:hover a>span:first-child{
+    transform:rotateY(360deg);
+    transition:all 2s;
+}
+#message{
+    position: absolute;
+    width: 200px;
+    bottom:50px;
+     right:0;
+    z-index:1;
+    transition:all 5s ;
+    overflow:hidden;
+    border-radius:50%;
+}
+#message>img{
+    position: relative;
+    z-index:1;
+}
+#mess{
+    z-index:2;
+    position: absolute;
+    top:10px;
+    left:50px;
+}
+#mess1{
+    z-index:2;
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+#message:hover,#message:focus{
+    transform:rotateY(360deg);
+    transition:all 5s;
+}
+#word{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    bottom:20px;
+    left:50%;
+    margin-left:-300px;
+
+}
+#word>span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:10px;
+    right:10px;
+    line-height:40px;
+    font-size:18px;
+    text-align: center;
+    cursor:pointer;
+    background: #ddd;
+    border-radius:50%;
+    transition:all 2s;
+}
+#word>span:hover{
+    background: #f2c943;
+    transition:all 2s;
+}
+#word>input{
+    outline:none;
+    width: 400px;
+    height: 28px;
+    border:none;
+    margin-left:50px;
+    margin-top:15px;
+    background: url(../img/timg5.jpg );
+    line-height:28px;
+    font-size:18px;
+    font-weight:bold;
+}
+#word>button{
+    width: 80px;
+    height: 30px;
+    outline:none;
+    margin-top:15px;
+   border:none;
+    cursor:pointer;
+}
